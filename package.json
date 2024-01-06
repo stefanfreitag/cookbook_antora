@@ -6,6 +6,5 @@
   "dependencies": {
     "@antora/pdf-extension": "^1.0.0-alpha.7",
     "@antora/site-generator-with-pdf-exporter": "git+https://gitlab.com/opendevise/oss/antora-site-generator-with-pdf-exporter#v2.3.0-alpha.2"
-
   }
 }

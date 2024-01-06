@@ -19,3 +19,7 @@ ui:
 output: 
   clean: true
   dir: ./docs
+
+antora:
+  extensions:
+  - '@antora/pdf-extension'

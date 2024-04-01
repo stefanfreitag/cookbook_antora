@@ -10,19 +10,19 @@
     asciidoctor.js "1.5.9"
     opal-runtime "1.0.11"
 
-"@antora/asciidoc-loader@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/asciidoc-loader/-/asciidoc-loader-3.1.5.tgz"
-  integrity sha512-gWqoNL0Sm5dzFGgUFw6xF4bDtZDJDMoWfckbROn5l8hb7CrnXOsoLLydDxya8dvEYIXlq9lOngpolEKjO1RHew==
+"@antora/asciidoc-loader@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/asciidoc-loader/-/asciidoc-loader-3.1.7.tgz"
+  integrity sha512-sM/poPtAi8Cx0g2oLGHoEYjTdE9pvIYLgbHW07fGf6c9wQYMd2DMsevtbhNKWp+xqxj/QinToz4JOaNLoy1nfg==
   dependencies:
-    "@antora/logger" "3.1.5"
+    "@antora/logger" "3.1.7"
     "@antora/user-require-helper" "~2.0"
     "@asciidoctor/core" "~2.2"
 
-"@antora/assembler@1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.npmjs.org/@antora/assembler/-/assembler-1.0.0-alpha.7.tgz"
-  integrity sha512-SjPIaNghLrZGIt3T+LRS31+NGogMDfv3puo02HIRp7QfQTPbqtww3yLVrrEoCaa5hciEpm+dQPYzPOXk8dzJjQ==
+"@antora/assembler@1.0.0-alpha.8":
+  version "1.0.0-alpha.8"
+  resolved "https://registry.npmjs.org/@antora/assembler/-/assembler-1.0.0-alpha.8.tgz"
+  integrity sha512-icKrZ92A1a4XI3QwbVU69crap0fRZfHOFl13yT4lnEmewN4l/8/FgxegQ55Jr+ho/11ZCqqNM8df4TUjiPebjA==
   dependencies:
     "@antora/expand-path-helper" "~2.0"
     braces "~3.0"
@@ -30,13 +30,13 @@
     picomatch "~3.0"
     vinyl "~2.2"
 
-"@antora/cli@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/cli/-/cli-3.1.5.tgz"
-  integrity sha512-vuKSdhlxtlwZq+JGi97lEzs26m9girNxPyGfCcZLQ9J+sYWvB1cxEbj22ZUQlWnprZUyysNyPZIglLNLBOZgqg==
+"@antora/cli@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/cli/-/cli-3.1.7.tgz"
+  integrity sha512-yHo30VmiLLsZU4JW8VZR6fql9m5lIxocA2d0tduKQ+r4YSD1kt+bbwX3You3iMwW7oLoNo62zfU76F8CQBnm2g==
   dependencies:
-    "@antora/logger" "3.1.5"
-    "@antora/playbook-builder" "3.1.5"
+    "@antora/logger" "3.1.7"
+    "@antora/playbook-builder" "3.1.7"
     "@antora/user-require-helper" "~2.0"
     commander "~10.0"
 
@@ -60,19 +60,19 @@
     vinyl "~2.2"
     vinyl-fs "~3.0"
 
-"@antora/content-aggregator@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/content-aggregator/-/content-aggregator-3.1.5.tgz"
-  integrity sha512-1KfbfjND/ox/EwM/GG6ri60nb0TA+aUO3Y2XAHr/hvnJaWcHMqT4NOIHwl8KyHYmem8WYf97q9w2lKV4usP+hA==
+"@antora/content-aggregator@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/content-aggregator/-/content-aggregator-3.1.7.tgz"
+  integrity sha512-2gBbxaDxqY4QRw9Vut0IbKNqI9zAAohxjT0zcA5Am10kE3ywvzXaBa3tvb+A7vUl/vRcCC0LPM7pO37RVrbsGA==
   dependencies:
     "@antora/expand-path-helper" "~2.0"
-    "@antora/logger" "3.1.5"
+    "@antora/logger" "3.1.7"
     "@antora/user-require-helper" "~2.0"
     braces "~3.0"
     cache-directory "~2.0"
     glob-stream "~7.0"
     hpagent "~1.2"
-    isomorphic-git "~1.21"
+    isomorphic-git "~1.25"
     js-yaml "~4.1"
     multi-progress "~4.0"
     picomatch "~2.3"
@@ -89,13 +89,13 @@
     "@antora/asciidoc-loader" "2.3.4"
     vinyl "~2.2"
 
-"@antora/content-classifier@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/content-classifier/-/content-classifier-3.1.5.tgz"
-  integrity sha512-yFBjJfNuDcC0ioh2Czx4ggTFyc776gZfaL8cKIboDGlCP7b8NyAusTgtt35l99nyVpe2KhvO2p/4KViMOsfXSw==
+"@antora/content-classifier@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/content-classifier/-/content-classifier-3.1.7.tgz"
+  integrity sha512-94XwJ35pkWJU6dJqQg5oreJRCkaXwU6yw9XSyB731o4i/0romkazKnu7deHugqdgvzqn92AlMRG6R0clhJLEsw==
   dependencies:
-    "@antora/asciidoc-loader" "3.1.5"
-    "@antora/logger" "3.1.5"
+    "@antora/asciidoc-loader" "3.1.7"
+    "@antora/logger" "3.1.7"
     mime-types "~2.1"
     vinyl "~2.2"
 
@@ -106,12 +106,12 @@
   dependencies:
     "@antora/asciidoc-loader" "2.3.4"
 
-"@antora/document-converter@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/document-converter/-/document-converter-3.1.5.tgz"
-  integrity sha512-YjuYPWp9ejo6KWw1yp2T+m927n/tiY8V8Q4jdt3x8XhjjfkUqSx/Sd7wgc6pGLCLM7L2V31Lpd2lZWe4ANtHQA==
+"@antora/document-converter@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/document-converter/-/document-converter-3.1.7.tgz"
+  integrity sha512-cRVJf7QyclxjWbA0gWz7hncZYThIREikkwaxaa26LsRCfBNlw7wxs7lWejvIvEl1LVshupbinJwKUPPQPOsHhw==
   dependencies:
-    "@antora/asciidoc-loader" "3.1.5"
+    "@antora/asciidoc-loader" "3.1.7"
 
 "@antora/expand-path-helper@~1.0":
   version "1.0.0"
@@ -123,10 +123,10 @@
   resolved "https://registry.npmjs.org/@antora/expand-path-helper/-/expand-path-helper-2.0.0.tgz"
   integrity sha512-CSMBGC+tI21VS2kGW3PV7T2kQTM5eT3f2GTPVLttwaNYbNxDve08en/huzszHJfxo11CcEs26Ostr0F2c1QqeA==
 
-"@antora/file-publisher@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/file-publisher/-/file-publisher-3.1.5.tgz"
-  integrity sha512-C4Ikpv5X6MQ/SzYcatggVj84fgM7RbYZCZCWsnaDv8ax7mpsf4zK9W/kd5uQ8GqBqNWYLCiSqsdOCvUrZkQX9A==
+"@antora/file-publisher@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/file-publisher/-/file-publisher-3.1.7.tgz"
+  integrity sha512-UH2o0DJuv9BJvWgn+QSE3MhtHB3oN3lG5lJkV3fQi1jAV+qPIHoiTIYhbw02mj5KQ3Qbt7YWWAKZKuGl3rEdjg==
   dependencies:
     "@antora/expand-path-helper" "~2.0"
     "@antora/user-require-helper" "~2.0"
@@ -134,10 +134,10 @@
     vinyl "~2.2"
     vinyl-fs "~3.0"
 
-"@antora/logger@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/logger/-/logger-3.1.5.tgz"
-  integrity sha512-DGIxiv/rsWRWxFTRD4Hu2TXiFUHOqCpiu4Rf7LxOPdKkuF6i167fw8BuZeFfTzvOE2W2FhB4sopI0EiAZ1D/vQ==
+"@antora/logger@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/logger/-/logger-3.1.7.tgz"
+  integrity sha512-Z2tfNIi9G4BnAZq26Kp30974FxCVCtvH46FOi6ClnkJg6Uf2gTrVlJERmtsDTsHjWsf1qKbnj/4b99/AU31iQg==
   dependencies:
     "@antora/expand-path-helper" "~2.0"
     pino "~8.14"
@@ -151,12 +151,12 @@
   dependencies:
     "@antora/asciidoc-loader" "2.3.4"
 
-"@antora/navigation-builder@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/navigation-builder/-/navigation-builder-3.1.5.tgz"
-  integrity sha512-xv/Bqje4q1JhPf7GKK9/S79PdaiXJG34WDIefKNLMetsJ+r/7+Mk1ZodYjkogGiCPWQ+E71cr8/uhICpGTljLA==
+"@antora/navigation-builder@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/navigation-builder/-/navigation-builder-3.1.7.tgz"
+  integrity sha512-QvMPb0qY1zfgyLCfuEhJOpO5qSVjaVe5X/bQjSii9vDGgpIEiC2yt/hgqER37E/3zsBGEZvCH5lSLk1c7x0+EQ==
   dependencies:
-    "@antora/asciidoc-loader" "3.1.5"
+    "@antora/asciidoc-loader" "3.1.7"
 
 "@antora/page-composer@~2 >=2.3.4":
   version "2.3.4"
@@ -166,21 +166,21 @@
     handlebars "~4.7"
     require-from-string "~2.0"
 
-"@antora/page-composer@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/page-composer/-/page-composer-3.1.5.tgz"
-  integrity sha512-63ld9s7exXvYtds0cj1ZBwinRnZCvnFkYPuHhCaD7uirRes922kuYXeowO1MKqQQ4Cqcx3OWIjU73W0Q2d1AGQ==
+"@antora/page-composer@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/page-composer/-/page-composer-3.1.7.tgz"
+  integrity sha512-zJMzYznPT6Vd59nEXio/2rolkX070Nup6g4a8d4RCz0WoE8dmMidw6XFgjAHr0Lyh14/FHgBPlYXfhkDFR16Mw==
   dependencies:
-    "@antora/logger" "3.1.5"
+    "@antora/logger" "3.1.7"
     handlebars "~4.7"
     require-from-string "~2.0"
 
-"@antora/pdf-extension@^1.0.0-alpha.7":
-  version "1.0.0-alpha.7"
-  resolved "https://registry.npmjs.org/@antora/pdf-extension/-/pdf-extension-1.0.0-alpha.7.tgz"
-  integrity sha512-IukcDJHWeUV0l6kFSN2hm/LEv4ZAVRMvb/Q9x8YDt92keN3WWCW2eaWUPxTq7ae9NL8aA40G+MgQ8K/cq6zVzw==
+"@antora/pdf-extension@^1.0.0-alpha.8":
+  version "1.0.0-alpha.8"
+  resolved "https://registry.npmjs.org/@antora/pdf-extension/-/pdf-extension-1.0.0-alpha.8.tgz"
+  integrity sha512-0g1wSjcPqiXQUz940lxaO+JS2dKwTdHiommbHbgc0xpQYmPEGuiSpYZHtsX+/QLgVfGnnZRmW9mHz5hB88a6SQ==
   dependencies:
-    "@antora/assembler" "1.0.0-alpha.7"
+    "@antora/assembler" "1.0.0-alpha.8"
 
 "@antora/playbook-builder@~2 >=2.3.4":
   version "2.3.4"
@@ -193,10 +193,10 @@
     js-yaml "~3.14"
     json5 "~2.1"
 
-"@antora/playbook-builder@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/playbook-builder/-/playbook-builder-3.1.5.tgz"
-  integrity sha512-h3zD1FkN8BVnsmHSgB3CTatVu5Q8E8lqZs7Zfsh7uN5eQHhxsPjOvVByeM1RhCpQuY+o2hERY2XexoLb8V89TQ==
+"@antora/playbook-builder@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/playbook-builder/-/playbook-builder-3.1.7.tgz"
+  integrity sha512-lU80S1BqUy9DvqziEzRwpYTaWhOshxgrGAjf/F5VjAIaHCGVx0rZgfoI2rgFFkbVaH94kauOngdtTXDPXC1fPQ==
   dependencies:
     "@iarna/toml" "~2.2"
     convict "~6.2"
@@ -211,10 +211,10 @@
     "@antora/asciidoc-loader" "2.3.4"
     vinyl "~2.2"
 
-"@antora/redirect-producer@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/redirect-producer/-/redirect-producer-3.1.5.tgz"
-  integrity sha512-BM5qk3Daj81wGu3sJ+wCyZGV7P9EC8nxK9stRzrTqUOGa9MriaZGZ+B3Xvakucj5jQTaFo0w7m3udxBOYicvgQ==
+"@antora/redirect-producer@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/redirect-producer/-/redirect-producer-3.1.7.tgz"
+  integrity sha512-6zAHfcOb0v0829nAbn/3HMilbactjbjU7zBT9Iy6JHQfbqXT/g/mUT9N13Lj/wbq/nm0qKQJweB0Mi6BS2fbMw==
   dependencies:
     vinyl "~2.2"
 
@@ -241,24 +241,24 @@
     "@antora/site-publisher" "~2 >=2.3.4"
     "@antora/ui-loader" "~2 >=2.3.4"
 
-"@antora/site-generator@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/site-generator/-/site-generator-3.1.5.tgz"
-  integrity sha512-HNkzmPVDU/GBG962O9OnfIJWSC/L2LMDZ59H0T4LXRGKdDrPjaEQqv9AgxaCI0DQ+Cg9sHE3m/ISwkd0+FZabg==
+"@antora/site-generator@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/site-generator/-/site-generator-3.1.7.tgz"
+  integrity sha512-39KWip9bLdQ+4ssyqjI+O0COquKHxoeznxY2/3w5pNZEoeTg8cD7kOsnWfbocw0R3Rj+kJV5MnqICFNq0nuPeA==
   dependencies:
-    "@antora/asciidoc-loader" "3.1.5"
-    "@antora/content-aggregator" "3.1.5"
-    "@antora/content-classifier" "3.1.5"
-    "@antora/document-converter" "3.1.5"
-    "@antora/file-publisher" "3.1.5"
-    "@antora/logger" "3.1.5"
-    "@antora/navigation-builder" "3.1.5"
-    "@antora/page-composer" "3.1.5"
-    "@antora/playbook-builder" "3.1.5"
-    "@antora/redirect-producer" "3.1.5"
-    "@antora/site-mapper" "3.1.5"
-    "@antora/site-publisher" "3.1.5"
-    "@antora/ui-loader" "3.1.5"
+    "@antora/asciidoc-loader" "3.1.7"
+    "@antora/content-aggregator" "3.1.7"
+    "@antora/content-classifier" "3.1.7"
+    "@antora/document-converter" "3.1.7"
+    "@antora/file-publisher" "3.1.7"
+    "@antora/logger" "3.1.7"
+    "@antora/navigation-builder" "3.1.7"
+    "@antora/page-composer" "3.1.7"
+    "@antora/playbook-builder" "3.1.7"
+    "@antora/redirect-producer" "3.1.7"
+    "@antora/site-mapper" "3.1.7"
+    "@antora/site-publisher" "3.1.7"
+    "@antora/ui-loader" "3.1.7"
     "@antora/user-require-helper" "~2.0"
 
 "@antora/site-mapper@~2 >=2.3.4":
@@ -269,12 +269,12 @@
     "@antora/content-classifier" "2.3.4"
     vinyl "~2.2"
 
-"@antora/site-mapper@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/site-mapper/-/site-mapper-3.1.5.tgz"
-  integrity sha512-rSMFkOfq/yebJBRsT/P95YIW0Ig7WmaCNAg56CilYPh2QfzjNWZIuEOSeQcoIQ0t48W4KKo+KVjp32KERyz9wg==
+"@antora/site-mapper@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/site-mapper/-/site-mapper-3.1.7.tgz"
+  integrity sha512-x++89btbwk8FxyU2+H/RHQMnsC9sdvQvXcwXwNt11eXN1qj7t8TPiQZTalg7gkf0/osY4l7JRpGBY5JJfOJVig==
   dependencies:
-    "@antora/content-classifier" "3.1.5"
+    "@antora/content-classifier" "3.1.7"
     vinyl "~2.2"
 
 "@antora/site-publisher@~2 >=2.3.4":
@@ -288,12 +288,12 @@
     vinyl "~2.2"
     vinyl-fs "~3.0"
 
-"@antora/site-publisher@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/site-publisher/-/site-publisher-3.1.5.tgz"
-  integrity sha512-xf2r5Ey9Wu0rYktN80svKSYdHfc9lu/POrL7w9sauZFENx8G9H5KzMN8Qpgxg0dLqaWCXfKqldnklIVwXUBaYg==
+"@antora/site-publisher@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/site-publisher/-/site-publisher-3.1.7.tgz"
+  integrity sha512-zHaJc7UeBfFSIhBbQ5U5Ud4u671M84oqSJb3pPxlUiJDP7iVJlSl+0GNm0NAIoDizjPtVksUI88fzqCy5rfSUQ==
   dependencies:
-    "@antora/file-publisher" "3.1.5"
+    "@antora/file-publisher" "3.1.7"
 
 "@antora/ui-loader@~2 >=2.3.4":
   version "2.3.4"
@@ -313,10 +313,10 @@
     vinyl "~2.2"
     vinyl-fs "~3.0"
 
-"@antora/ui-loader@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@antora/ui-loader/-/ui-loader-3.1.5.tgz"
-  integrity sha512-CB3Apkf4gyj/Tf4f14EcMkI0KBtIEhE+yV9yVEnQYNEZERGpXP66W0FVk3nT2Y7iur4d9xgsBf1j4qpk9RvSuw==
+"@antora/ui-loader@3.1.7":
+  version "3.1.7"
+  resolved "https://registry.npmjs.org/@antora/ui-loader/-/ui-loader-3.1.7.tgz"
+  integrity sha512-79QuZB0c91dveoESa3RcE18ZZFJo0rDZX9aJKHVc20dInQBGCgfURPqB2OytkzaXD3lNtDJ41yjKNYZqsAQy1Q==
   dependencies:
     "@antora/expand-path-helper" "~2.0"
     "@vscode/gulp-vinyl-zip" "~2.5"
@@ -338,9 +338,9 @@
     "@antora/expand-path-helper" "~2.0"
 
 "@asciidoctor/core@~2.2":
-  version "2.2.6"
-  resolved "https://registry.npmjs.org/@asciidoctor/core/-/core-2.2.6.tgz"
-  integrity sha512-TmB2K5UfpDpSbCNBBntXzKHcAk2EA3/P68jmWvmJvglVUdkO9V6kTAuXVe12+h6C4GK0ndwuCrHHtEVcL5t6pQ==
+  version "2.2.7"
+  resolved "https://registry.npmjs.org/@asciidoctor/core/-/core-2.2.7.tgz"
+  integrity sha512-63cfnV606vXNUnh/zcuUi5e3tY5qTzaYY5pGP4p9sRk8CcCmX4Z8OfU0BkfM8/k2Y7Cz/jZqxL+vzHjrLQa8tw==
   dependencies:
     asciidoctor-opal-runtime "0.3.3"
     unxhr "1.0.1"
@@ -417,9 +417,9 @@ asciidoctor.js@1.5.9:
     opal-runtime "1.0.11"
 
 async-lock@^1.1.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/async-lock/-/async-lock-1.4.0.tgz"
-  integrity sha512-coglx5yIWuetakm3/1dsX9hxCNox22h7+V80RQOu2XUUMidtArxKoZoOtHUPuR84SycKTXzgGzAUR5hJxujyJQ==
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/async-lock/-/async-lock-1.4.1.tgz"
+  integrity sha512-Az2ZTpuytrtqENulXwO3GGv1Bztugx6TT37NIo7imr/Qo0gsYiGtSdBa2B6fsXhTpVZDNfu1Qn3pk531e3q+nQ==
 
 atomic-sleep@^1.0.0:
   version "1.0.0"
@@ -527,13 +527,15 @@ cacheable-request@^6.0.0:
     responselike "^1.0.2"
 
 call-bind@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/call-bind/-/call-bind-1.0.5.tgz"
-  integrity sha512-C3nQxfFZxFRVoJoGKKI8y3MOEo129NQ+FgQ08iye+Mk4zNZZGdjfs06bVTr+DBSlA66Q2VEcMki/cUCP4SercQ==
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/call-bind/-/call-bind-1.0.7.tgz"
+  integrity sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==
   dependencies:
+    es-define-property "^1.0.0"
+    es-errors "^1.3.0"
     function-bind "^1.1.2"
-    get-intrinsic "^1.2.1"
-    set-function-length "^1.1.1"
+    get-intrinsic "^1.2.4"
+    set-function-length "^1.2.1"
 
 camelcase-keys@~6.2:
   version "6.2.2"
@@ -667,14 +669,14 @@ defer-to-connect@^1.0.1:
   resolved "https://registry.npmjs.org/defer-to-connect/-/defer-to-connect-1.1.3.tgz"
   integrity sha512-0ISdNousHvZT2EiFlZeZAHBUvSxmKswVCEf8hW7KWgG4a8MVEu/3Vb6uWYozkjylyCxe0JBIiRB1jV45S70WVQ==
 
-define-data-property@^1.0.1, define-data-property@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.1.tgz"
-  integrity sha512-E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==
+define-data-property@^1.0.1, define-data-property@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz"
+  integrity sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==
   dependencies:
-    get-intrinsic "^1.2.1"
+    es-define-property "^1.0.0"
+    es-errors "^1.3.0"
     gopd "^1.0.1"
-    has-property-descriptors "^1.0.0"
 
 define-properties@^1.2.1:
   version "1.2.1"
@@ -706,14 +708,14 @@ duplexify@^3.6.0:
     stream-shift "^1.0.0"
 
 duplexify@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/duplexify/-/duplexify-4.1.2.tgz"
-  integrity sha512-fz3OjcNCHmRP12MJoZMPglx8m4rrFP8rovnk4vT8Fs+aonZoCwGg10dSsQsfP/E62eZcPTMSMP6686fu9Qlqtw==
+  version "4.1.3"
+  resolved "https://registry.npmjs.org/duplexify/-/duplexify-4.1.3.tgz"
+  integrity sha512-M3BmBhwJRZsSx38lZyhE53Csddgzl5R7xGJNk7CVddZD6CcmwMCH8J+7AprIrQKH7TonKxaCjcv27Qmf+sQ+oA==
   dependencies:
     end-of-stream "^1.4.1"
     inherits "^2.0.3"
     readable-stream "^3.1.1"
-    stream-shift "^1.0.0"
+    stream-shift "^1.0.2"
 
 end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   version "1.4.4"
@@ -721,6 +723,18 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
   integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
   dependencies:
     once "^1.4.0"
+
+es-define-property@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.0.tgz"
+  integrity sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==
+  dependencies:
+    get-intrinsic "^1.2.4"
+
+es-errors@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz"
+  integrity sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==
 
 escape-string-regexp@^2.0.0:
   version "2.0.0"
@@ -748,14 +762,14 @@ extend@^3.0.0, extend@^3.0.2:
   integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
 
 fast-copy@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/fast-copy/-/fast-copy-3.0.1.tgz"
-  integrity sha512-Knr7NOtK3HWRYGtHoJrjkaWepqT8thIVGAwt0p0aUs1zqkAzXZV4vo9fFNwyb5fcqK1GKYFYxldQdIDVKhUAfA==
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/fast-copy/-/fast-copy-3.0.2.tgz"
+  integrity sha512-dl0O9Vhju8IrcLndv2eU4ldt1ftXMqqfgN4H1cpmGV7P6jeB9FwpN9a2c8DPGE1Ys88rNUJVYDHq73CGAGOPfQ==
 
 fast-redact@^3.1.1:
-  version "3.3.0"
-  resolved "https://registry.npmjs.org/fast-redact/-/fast-redact-3.3.0.tgz"
-  integrity sha512-6T5V1QK1u4oF+ATxs1lWUmlEk6P2T9HqJG3e2DnHOdVgZy2rFJBoEnrIedcTXlkAHU/zKC+7KETJ+KGGKwxgMQ==
+  version "3.5.0"
+  resolved "https://registry.npmjs.org/fast-redact/-/fast-redact-3.5.0.tgz"
+  integrity sha512-dwsoQlS7h9hMeYUq1W++23NDcBLV4KqONnITDV9DjfS3q1SgDGVrBdvvTLUotWtPSD7asWDV9/CmsZPy8Hf70A==
 
 fast-safe-stringify@^2.1.1:
   version "2.1.1"
@@ -811,11 +825,12 @@ function-bind@^1.1.2:
   resolved "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz"
   integrity sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==
 
-get-intrinsic@^1.1.3, get-intrinsic@^1.2.1, get-intrinsic@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.2.tgz"
-  integrity sha512-0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==
+get-intrinsic@^1.1.3, get-intrinsic@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.4.tgz"
+  integrity sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==
   dependencies:
+    es-errors "^1.3.0"
     function-bind "^1.1.2"
     has-proto "^1.0.1"
     has-symbols "^1.0.3"
@@ -1000,17 +1015,17 @@ handlebars@~4.7:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-has-property-descriptors@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.1.tgz"
-  integrity sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==
+has-property-descriptors@^1.0.0, has-property-descriptors@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz"
+  integrity sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==
   dependencies:
-    get-intrinsic "^1.2.2"
+    es-define-property "^1.0.0"
 
 has-proto@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz"
-  integrity sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/has-proto/-/has-proto-1.0.3.tgz"
+  integrity sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==
 
 has-symbols@^1.0.3:
   version "1.0.3"
@@ -1018,9 +1033,9 @@ has-symbols@^1.0.3:
   integrity sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==
 
 hasown@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/hasown/-/hasown-2.0.0.tgz"
-  integrity sha512-vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz"
+  integrity sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==
   dependencies:
     function-bind "^1.1.2"
 
@@ -1048,9 +1063,9 @@ ieee754@^1.1.13, ieee754@^1.2.1:
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^5.1.4:
-  version "5.3.0"
-  resolved "https://registry.npmjs.org/ignore/-/ignore-5.3.0.tgz"
-  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/ignore/-/ignore-5.3.1.tgz"
+  integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -1141,10 +1156,10 @@ isarray@~1.0.0:
   resolved "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
   integrity sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==
 
-isomorphic-git@~1.21:
-  version "1.21.0"
-  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.21.0.tgz"
-  integrity sha512-ZqCAUM63CYepA3fB8H7NVyPSiOkgzIbQ7T+QPrm9xtYgQypN9JUJ5uLMjB5iTfomdJf3mdm6aSxjZwnT6ubvEA==
+isomorphic-git@~1.25:
+  version "1.25.6"
+  resolved "https://registry.npmjs.org/isomorphic-git/-/isomorphic-git-1.25.6.tgz"
+  integrity sha512-zA3k3QOO7doqOnBgwsaXJwHKSIIl5saEdH4xxalu082WHVES4KghsG6RE2SDwjXMCIlNa1bWocbitH6bRIrmLQ==
   dependencies:
     async-lock "^1.1.0"
     clean-git-ref "^2.0.1"
@@ -1670,9 +1685,9 @@ readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0, readable
     util-deprecate "^1.0.1"
 
 readable-stream@^4.0.0:
-  version "4.4.2"
-  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-4.4.2.tgz"
-  integrity sha512-Lk/fICSyIhodxy1IDK2HazkeGjSmezAWX2egdtJnYhtzKEsBPJowlI6F6LPb5tqIQILrMbx22S5o3GuJavPusA==
+  version "4.5.2"
+  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-4.5.2.tgz"
+  integrity sha512-yjavECdqeZ3GLXNgRXgeQEdz9fvDDkNKyHnbHRFtOr7/LcfgBcmct7t/ET+HaCTqfh06OzoAxrkN/IfjJBVe+g==
   dependencies:
     abort-controller "^3.0.0"
     buffer "^6.0.3"
@@ -1764,15 +1779,17 @@ secure-json-parse@^2.4.0:
   resolved "https://registry.npmjs.org/secure-json-parse/-/secure-json-parse-2.7.0.tgz"
   integrity sha512-6aU+Rwsezw7VR8/nyvKTx8QpWH9FrcYiXXlqC4z5d5XQBDRqtbfsRjnwGyqbi3gddNtWHuEk9OANUotL26qKUw==
 
-set-function-length@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/set-function-length/-/set-function-length-1.1.1.tgz"
-  integrity sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==
+set-function-length@^1.2.1:
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz"
+  integrity sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==
   dependencies:
-    define-data-property "^1.1.1"
-    get-intrinsic "^1.2.1"
+    define-data-property "^1.1.4"
+    es-errors "^1.3.0"
+    function-bind "^1.1.2"
+    get-intrinsic "^1.2.4"
     gopd "^1.0.1"
-    has-property-descriptors "^1.0.0"
+    has-property-descriptors "^1.0.2"
 
 sha.js@^2.4.9:
   version "2.4.11"
@@ -1832,10 +1849,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
   integrity sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==
 
-stream-shift@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.1.tgz"
-  integrity sha512-AiisoFqQ0vbGcZgQPY1cdP2I76glaVA/RauYR4G4thNFgkTqr90yXTo4LYX60Jl+sIlPNHHdGSwo01AvbKUSVQ==
+stream-shift@^1.0.0, stream-shift@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.3.tgz"
+  integrity sha512-76ORR0DO1o1hlKwTbi/DM3EXWGf3ZJYO8cXX5RJwnul2DEg2oyoZyjLNoQM8WsvZiFKCRfC1O0J7iCvie3RZmQ==
 
 string_decoder@^1.1.1, string_decoder@^1.3.0:
   version "1.3.0"

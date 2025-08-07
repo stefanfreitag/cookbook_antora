@@ -1,5 +1,9 @@
 /node_modules
 .bundle/
-.history
 build/
 docs/**/*.pdf
+
+# VSCode settings
+.vscode/
+# VSCode plugins
+.history
